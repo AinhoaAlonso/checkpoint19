@@ -108,5 +108,4 @@ Es una plataforma que ofrece soluciones sólidas para alojar y desplegar aplicac
 - **Render:** Proporciona un entorno full-stack más flexible, con capacidades tanto para frontend como backend. Ofrece almacenamiento persistente y bases de datos (aunque pagas), pero entra en modo "sleep" tras 15 minutos de inactividad en el plan gratuito.
 
 ##### Otras alternativas
-Además de las plataformas comparadas, existen otras alternativas con planes gratuitos como Railway, Netlife
-
+Además de las plataformas comparadas, existen otras alternativas con planes gratuitos como Railway, Netlify, Firebase,...
