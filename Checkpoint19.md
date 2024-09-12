@@ -18,14 +18,14 @@ Su propósito principal es proporcionar un contenedor predecible del estado de l
 
 ### ¿Por qué usar Redux?
 Cuando creamos aplicaciones en React, éstas se organizan como una serie de componentes anidados, su naturaleza es funcional. En otras palabras reciben información a través de sus argumentos (props) y pasan la información a través de sus valores de retorno y a esto se le llama: one-way binding, los datos sólo se transmiten de los componentes a sus hijos:
-![](https://miro.medium.com/max/367/1*ZiO5GjYS43uzbrJezNwl7w.jpegt)
+![](https://miro.medium.com/max/367/1*ZiO5GjYS43uzbrJezNwl7w.jpeg)
 
 #### React sin Redux
 Entonces, imaginemos que en nuestro componente D tenemos un input que almacena cierta información en un estado. Esta información estará disponible para todo el componente D y sus hijos, ¿pero qué pasaria si necesitamos que esa información también esté presente en el componente E?
-![](https://miro.medium.com/max/367/1*80noTHl0f_GsuptOp9IeyA.jpegt)
+![](https://miro.medium.com/max/367/1*80noTHl0f_GsuptOp9IeyA.jpeg)
 
 Una solución sería declarar el estado en el componente B (padre), de esa forma tendremos acceso a la información desde el componente D y E (hijos):
-![](https://miro.medium.com/max/367/1*rwFsVl7k9LvxF-3AIFSJlQ.jpegt)
+![](https://miro.medium.com/max/367/1*rwFsVl7k9LvxF-3AIFSJlQ.jpeg)
 
 Siguiendo la misma lógica, ¿qué pasaría si necesito tener acceso a esa información en toda mi aplicación? Bueno, entonces declaro el estado en el padre de todos los componentes:
 ![](https://miro.medium.com/max/367/1*sjgMqU03KTZn0ydPJ3GbBg.jpeg)
